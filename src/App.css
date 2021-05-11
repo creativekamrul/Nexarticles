@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
+    font-family: Roboto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MuiGrid-spacing-xs-3{
+    width:100% !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#blog_grid{
+    padding: 5em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-a-link{
+    color: white;
+    text-decoration: none;
 }
-
-.App-link {
-  color: #61dafb;
+a{
+    text-decoration: none !important;
 }
+.single_page_content{
+    padding: 5rem 10rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.loading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 86.5vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.wp-block-image figcaption{
+    display: none;
+}
+.wp-block-image{
+    margin: 0;
+    text-align: center;
+}
+.logo{
+    color: white !important;
 }
